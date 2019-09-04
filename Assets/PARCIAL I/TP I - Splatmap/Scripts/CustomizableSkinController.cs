@@ -40,19 +40,16 @@ public class CustomizableSkinController : MonoBehaviour
 
 	void OnShirtUpdate()
 	{
-		//TODO: Linkear Textura de Camiseta con Shader
 		material.SetTexture("_Shirt", kits[(int)shirtsSlider.value]);
 	}
 
 	void OnShortsUpdate()
 	{
-		//TODO: Linkear Textura de Short con Shader
 		material.SetTexture("_Shorts", kits[(int)shortsSlider.value]);
 	}
 
 	void OnSocksUpdate()
 	{
-		//TODO: Linkear Textura de Medias con Shader
 		material.SetTexture("_Socks", kits[(int)socksSlider.value]);
 	}
 
@@ -73,7 +70,6 @@ public class CustomizableSkinController : MonoBehaviour
 			break;
 		}
 
-		//TODO: Linkear Color con Shader
 		material.SetColor("_ColorA", _colorA);
 	}
 
@@ -94,7 +90,6 @@ public class CustomizableSkinController : MonoBehaviour
 			break;
 		}
 
-		//TODO: Linkear Color con Shader
 		material.SetColor("_ColorB", _colorB);
 	}
 
@@ -115,7 +110,6 @@ public class CustomizableSkinController : MonoBehaviour
 			break;
 		}
 
-		//TODO: Linkear Color con Shader
 		material.SetColor("_ColorC", _colorC);
 	}
 }
